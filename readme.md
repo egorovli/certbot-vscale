@@ -1,4 +1,8 @@
 # certbot-vscale-dns
+[![Docker registry](https://img.shields.io/docker/pulls/egorovli/certbot-vscale.svg)](https://hub.docker.com/r/egorovli/certbot-vscale/)
+![Docker automated build](https://img.shields.io/docker/cloud/automated/egorovli/certbot-vscale.svg)
+[![Image layers](https://images.microbadger.com/badges/image/egorovli/certbot-vscale.svg)](https://microbadger.com/images/egorovli/certbot-vscale)
+![Docker build Status](https://img.shields.io/docker/cloud/build/egorovli/certbot-vscale.svg)
 
 ## What is this?
 
