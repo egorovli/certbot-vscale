@@ -58,7 +58,7 @@ def get_domain_id (domain, token):
   try:
     contents = urllib2.urlopen(request).read()
   except urllib2.HTTPError as err:
-    print('failed to get domain ID: {} {}'.format(err.code, err.msg))
+    log('failed to get domain ID: {} {}'.format(err.code, err.msg), level='error')
     exit(1)
 
   data = json.loads(contents)
@@ -85,7 +85,7 @@ def create_txt_record (domain_id, name, value, token):
   try:
     contents = urllib2.urlopen(request).read()
   except urllib2.HTTPError as err:
-    print('failed to get domain ID: {} {}'.format(err.code, err.msg))
+    log('failed to create TXT record: {} {}'.format(err.code, err.msg), level='error')
     exit(1)
 
   response = json.loads(contents)
