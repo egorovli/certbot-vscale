@@ -104,7 +104,7 @@ def write_tmp_data (name, domain_id, record_id):
 def log (msg, level='info'):
   ts = datetime.datetime.now().time()
   level = level.upper()
-  print('[ {} ] [ {} ] authenticator: {}'.format(ts, level, msg))
+  sys.stderr.write('[ {} ] [ {} ] authenticator: {}\n'.format(ts, level, msg))
 
 if __name__ == '__main__':
   main()

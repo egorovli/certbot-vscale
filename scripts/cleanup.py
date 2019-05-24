@@ -3,6 +3,7 @@
 import datetime
 import json
 import os
+import sys
 import tempfile
 import urllib2
 
@@ -55,7 +56,7 @@ def delete_record (domain_id, record_id, token):
 def log (msg, level='info'):
   ts = datetime.datetime.now().time()
   level = level.upper()
-  print('[ {} ] [ {} ] cleanup: {}'.format(ts, level, msg))
+  sys.stderr.write('[ {} ] [ {} ] cleanup: {}\n'.format(ts, level, msg))
 
 if __name__ == '__main__':
   main()
