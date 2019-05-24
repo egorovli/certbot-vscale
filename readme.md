@@ -1,4 +1,4 @@
-# certbot-vscale-dns
+# certbot-vscale
 [![Docker registry](https://img.shields.io/docker/pulls/egorovli/certbot-vscale.svg)](https://hub.docker.com/r/egorovli/certbot-vscale/)
 ![Docker automated build](https://img.shields.io/docker/cloud/automated/egorovli/certbot-vscale.svg)
 [![Image layers](https://images.microbadger.com/badges/image/egorovli/certbot-vscale.svg)](https://microbadger.com/images/egorovli/certbot-vscale)
@@ -6,7 +6,7 @@
 
 ## What is this?
 
-`certbot-vscale-dns` is a [Docker](https://www.docker.com) image based on the latest [Certbot](https://certbot.eff.org) image for obtaining [Let's Encrypt](https://letsencrypt.org) certificates if you use [VScale](https://vscale.io) DNS management.
+`certbot-vscale` is a [Docker](https://www.docker.com) image based on the latest [Certbot](https://certbot.eff.org) image for obtaining [Let's Encrypt](https://letsencrypt.org) certificates if you use [VScale](https://vscale.io) DNS management.
 
 ## How does it work?
 
